@@ -1,7 +1,6 @@
 /*
  * Responsee JS - v6 - 2019-06-27
- * https://www.myresponsee.com
- * Copyright 2019, Vision Design - graphic zoo
+ * 
  * Free to use under the MIT license.
 */
 jQuery(document).ready(function($) {
