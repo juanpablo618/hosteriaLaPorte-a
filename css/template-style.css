@@ -63,6 +63,10 @@ nav ul li ul li {
 	text-align: center;
 	padding: 4.5rem 0;
 }
+#promo-block, #plans-block, #itinerary-block, #testimonials-block, #faq-block, #location-block {
+	text-align: center;
+	padding: 4.5rem 0;
+}
 #carousel {
 	background: #fff;
 }
@@ -73,6 +77,12 @@ nav ul li ul li {
 	background: none repeat scroll 0 0 rgba(0, 30, 34, 0.85);
 }
 #third-block {
+	background: #fff;
+}
+#promo-block, #itinerary-block, #faq-block {
+	background: #f7fbfc;
+}
+#plans-block, #testimonials-block, #location-block {
 	background: #fff;
 }
 #fourth-block {
@@ -104,6 +114,59 @@ footer p, footer a:link, footer a:visited, footer a:hover {
 	display: inline-block;
 	font-size: 1.2rem;
 	padding: 0.625rem 0.8rem;
+}
+.hero-cta-row {
+	margin-top: 1rem;
+}
+.cta-btn-primary, .cta-btn-secondary {
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.cta-btn-secondary {
+	background: #fff !important;
+	color: rgb(0, 30, 34) !important;
+}
+.offer-card, .info-card, .testimonial-card, .faq-item {
+	background: #fff;
+	border: 1px solid #dfeff2;
+	border-radius: 10px;
+	height: 100%;
+	padding: 1.25rem;
+	text-align: left;
+}
+.offer-price {
+	color: #006b7a;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.faq-item {
+	margin-bottom: 1rem;
+}
+.testimonial-card p {
+	margin-bottom: 0.75rem;
+}
+.whatsapp {
+	align-items: center;
+	background: #25d366;
+	border-radius: 999px;
+	bottom: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	color: #fff !important;
+	display: inline-flex;
+	font-size: 0.95rem;
+	font-weight: 600;
+	gap: 0.4rem;
+	padding: 0.7rem 1rem;
+	position: fixed;
+	right: 20px;
+	z-index: 9999;
+}
+.whatsapp:hover {
+	background: #1ea952;
+}
+.whatsapp-icon {
+	font-size: 1.2rem;
 }
 #first-block i {
 	background: none repeat scroll 0 0 #2fcbe0;
@@ -244,6 +307,9 @@ form.customform input, form.customform select, form.customform textarea {
   }
   .carousel-text p {
   	font-size: 1rem;
+  }
+  .whatsapp span {
+    display: none;
   }
   ul.top-ul {
   	padding: 0;
