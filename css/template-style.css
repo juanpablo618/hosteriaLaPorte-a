@@ -150,23 +150,31 @@ footer p, footer a:link, footer a:visited, footer a:hover {
 	align-items: center;
 	background: #25d366;
 	border-radius: 999px;
-	bottom: 20px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	bottom: 18px;
+	box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
 	color: #fff !important;
 	display: inline-flex;
 	font-size: 0.95rem;
 	font-weight: 600;
-	gap: 0.4rem;
-	padding: 0.7rem 1rem;
+	gap: 0.5rem;
+	justify-content: center;
+	line-height: 1;
+	padding: 0.85rem 1.1rem;
 	position: fixed;
-	right: 20px;
+	right: 16px;
+	text-decoration: none;
+	transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease;
+	white-space: nowrap;
 	z-index: 9999;
 }
 .whatsapp:hover {
 	background: #1ea952;
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+	transform: translateY(-2px);
 }
 .whatsapp-icon {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
+	line-height: 1;
 }
 #first-block i {
 	background: none repeat scroll 0 0 #2fcbe0;
@@ -310,6 +318,17 @@ form.customform input, form.customform select, form.customform textarea {
   }
   .whatsapp span {
     display: none;
+  }
+  .whatsapp {
+    border-radius: 50%;
+    bottom: 14px;
+    height: 56px;
+    padding: 0;
+    right: 14px;
+    width: 56px;
+  }
+  .whatsapp-icon {
+    font-size: 1.8rem;
   }
   ul.top-ul {
   	padding: 0;
