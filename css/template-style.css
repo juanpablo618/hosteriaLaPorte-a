@@ -146,7 +146,7 @@ footer p, footer a:link, footer a:visited, footer a:hover {
 .testimonial-card p {
 	margin-bottom: 0.75rem;
 }
-.whatsapp {
+.floating-whatsapp {
 	align-items: center;
 	background: #25d366;
 	border-radius: 999px;
@@ -167,7 +167,7 @@ footer p, footer a:link, footer a:visited, footer a:hover {
 	white-space: nowrap;
 	z-index: 9999;
 }
-.whatsapp:hover {
+.floating-whatsapp:hover {
 	background: #1ea952;
 	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
 	transform: translateY(-2px);
@@ -316,10 +316,10 @@ form.customform input, form.customform select, form.customform textarea {
   .carousel-text p {
   	font-size: 1rem;
   }
-  .whatsapp span {
+  .floating-whatsapp span {
     display: none;
   }
-  .whatsapp {
+  .floating-whatsapp {
     border-radius: 50%;
     bottom: 14px;
     height: 56px;
