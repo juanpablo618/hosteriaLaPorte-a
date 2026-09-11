@@ -37,12 +37,7 @@
 - Registrar consultas por fuente (Instagram, Google, recomendación) para invertir mejor tiempo y pauta.
 
 ## 7) Plan de publicaciones conectado a la web
-- Publicar 3 veces por semana en redes y **llevar tráfico a páginas específicas** (habitaciones, promociones, qué hacer cerca).
-- Campañas sugeridas:
-  - "Escapada express" (2 noches).
-  - "Promo familia" con beneficio en comidas o late checkout.
-  - "Pet-friendly weekend" con foco en acceso al río.
-- Incluir en la web una sección de **promociones vigentes** con fecha de validez.
+- Publicar 3 veces por semana en redes y **llevar tráfico a páginas específicas** (habitaciones y qué hacer cerca).
 
 ## Quick wins (implementables en 7 días)
 1. Botón flotante de WhatsApp + CTA superior "Consultar disponibilidad".

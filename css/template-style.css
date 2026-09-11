@@ -63,7 +63,7 @@ nav ul li ul li {
 	text-align: center;
 	padding: 4.5rem 0;
 }
-#promo-block, #plans-block, #itinerary-block, #testimonials-block, #faq-block, #location-block {
+#plans-block, #itinerary-block, #testimonials-block, #faq-block, #location-block {
 	text-align: center;
 	padding: 4.5rem 0;
 }
@@ -79,7 +79,7 @@ nav ul li ul li {
 #third-block {
 	background: #fff;
 }
-#promo-block, #itinerary-block, #faq-block {
+#itinerary-block, #faq-block {
 	background: #f7fbfc;
 }
 #plans-block, #testimonials-block, #location-block {
@@ -126,19 +126,13 @@ footer p, footer a:link, footer a:visited, footer a:hover {
 	background: #fff !important;
 	color: rgb(0, 30, 34) !important;
 }
-.offer-card, .info-card, .testimonial-card, .faq-item {
+.info-card, .testimonial-card, .faq-item {
 	background: #fff;
 	border: 1px solid #dfeff2;
 	border-radius: 10px;
 	height: 100%;
 	padding: 1.25rem;
 	text-align: left;
-}
-.offer-price {
-	color: #006b7a;
-	font-size: 1rem;
-	font-weight: 700;
-	margin-bottom: 0;
 }
 .faq-item {
 	margin-bottom: 1rem;
